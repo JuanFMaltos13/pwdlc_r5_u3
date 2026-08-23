@@ -48,7 +48,8 @@ Este Reto busca que domines tecnologías clave en el desarrollo web moderno, com
 dinámicas. La capacidad de integrar y presentar datos en tiempo real de diferentes fuentes es una habilidad esencial en el mundo digital actual.
 ¡Buena suerte y esperamos ver tus creativas implementaciones!
 
-![Portada del proyecto](Blue anda Gray Modern Music Newspaper Document.png)
+![Portada del proyecto](Blue and Gray Modern Music Newspaper Document.png)
+
 
 
 
