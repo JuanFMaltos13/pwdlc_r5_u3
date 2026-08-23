@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 Lector de Noticias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <h1>📰 Lector de Noticias</h1>
+        <p>Mantente informado con las últimas noticias</p>
+        <button id="refreshBtn">🔄 Actualizar Noticias</button>
+    </header>
+
+    <!-- ===== CONTENIDO PRINCIPAL ===== -->
+    <main>
+        <!-- Indicador de carga -->
+        <div id="loadingIndicator">
+            <div class="spinner"></div>
+            <p>Cargando noticias...</p>
+        </div>
+
+        <!-- Mensaje de error -->
+        <div id="errorMessage"></div>
+
+        <!-- Grid de noticias -->
+        <div id="noticias"></div>
+    </main>
+
+     <!-- ===== MODAL ===== -->
+    <div id="noticiaModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContenido"></div>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2026 Lector de Noticias - Fuente: NewsAPI</p>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
